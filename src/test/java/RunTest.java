@@ -2,19 +2,19 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-public class RunTest {
-
-
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class RunTest {
+    import org.junit.jupiter.api.AfterAll;
+    import org.junit.jupiter.api.BeforeAll;
+    import org.junit.jupiter.api.Test;
+    import org.junit.jupiter.api.Assertions;
 
     public class SimpleTest {
 
-        @BeforeAllAll
+        @BeforeAll
         public static void setUp() {
-            System.out.println("Вывод до начала тестов");
+            System.out.println("Вывод до всех тестов");
         }
 
         @Test
@@ -31,9 +31,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
             assertEquals(5, a - b, "10 - 5 должно быть равно 5");
         }
 
-        @AfterAllAll
+        @AfterAll
         public static void tearDown() {
-            System.out.println("Вывод после прогона тестов");
+            System.out.println("Вывод после всех тестов");
         }
     }
 }
+
+
