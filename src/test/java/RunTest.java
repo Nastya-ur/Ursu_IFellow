@@ -1,11 +1,13 @@
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RunTest {
-    import org.junit.jupiter.api.AfterAll;
+//import org.junit.jupiter.api.AfterAll;
+//import org.junit.jupiter.api.BeforeAll;
+//import org.junit.jupiter.api.Test;
+
+//import static org.junit.jupiter.api.Assertions.assertEquals;
+
+//public class RunTest {
+   /* import org.junit.jupiter.api.AfterAll;
     import org.junit.jupiter.api.BeforeAll;
     import org.junit.jupiter.api.Test;
     import org.junit.jupiter.api.Assertions;
@@ -36,6 +38,4 @@ public class RunTest {
             System.out.println("Вывод после всех тестов");
         }
     }
-}
-
-
+} */
